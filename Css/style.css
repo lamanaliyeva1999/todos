@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-color: teal;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Input-Button-Box{display: flex; gap: 20px;}
+.Input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: gainsboro;
+    padding-left: 20px;
+}
+
+.Add-Btn {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.List {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.List-Element {
+padding: 15px ;
+    width: 250px;
+    height: 40px;
+    border: solid 1px black;
+    border: none;
+background-color: gainsboro;
+    border-radius: 5px;
+}
